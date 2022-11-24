@@ -233,39 +233,26 @@ header {
 
 /* Estilizando Lançamentos */
 
-#lancamentos,
-#plataformas {
+#games,
+#creators {
   padding: 2% 10%;
   color: var(--main-purple);
 
 }
 
-#lancamentos .lanc-info-container {
+#games .game-info-container {
   display: flex;
   flex-direction: row;
   justify-content: flex-start;
   align-items: center;
 }
 
-#lancamentos .lanc-info-container h1,
-#plataformas h1,
-#publishers h1 {
+#games .game-info-container h1,
+#creators h1{
   text-align: center;
 }
 
-#lancamentos .lanc-info-container .filtros {
-  display: flex;
-  flex-direction: row;
-  gap: 30px;
-}
-
-#lancamentos .lanc-info-container .filtros select {
-  margin-left: 50px;
-  min-height: 40px;
-  min-width: 150px;
-}
-
-#lancamentos .lanc-container {
+#games .game-container {
   margin: 50px 0;
 
   display: flex;
@@ -277,12 +264,12 @@ header {
   gap: 20px;
 }
 
-#lancamentos .lanc-container .mini-card {
+#games .game-container .mini-card {
   flex: 1;
   padding: 20px;
 }
 
-#lancamentos .lanc-container .mini-card img {
+#games .game-container .mini-card img {
   /* height: 200px; */
   max-width: 300px;
   align-self: stretch;
@@ -294,22 +281,14 @@ header {
 }
 
 @media screen and (max-width: 890px) {
-  #lancamentos .lanc-info-container {
-    flex-direction: column;
-  }
-}
-
-@media screen and (max-width: 550px) {
-  #lancamentos .lanc-info-container .filtros {
+  #games .game-info-container {
     flex-direction: column;
   }
 }
 
 /* botão carregar mais */
 
-#lancamentos button,
-#plataformas button,
-#publishers button {
+#games button {
   border: none;
   background: var(--greenb);
   color: var(--main-purple);
@@ -318,15 +297,14 @@ header {
   padding: 20px;
 }
 
-/* Estilizando Plataformas */
+/* Estilizando creators */
 
-#plataformas h1,
-#publishers h1 {
+#creators h1 {
   text-align: left;
 }
 
-/* #plataformas */
-.plat-container {
+/* #creators */
+.creators-container {
   width: 100%;
   margin: 10px 0;
 
@@ -338,8 +316,8 @@ header {
   gap: 20px;
 }
 
-/* #plataformas .plat-container */
-.plat-card {
+/* #creators .creators-container */
+.creators-card {
   padding: 50px;
   flex: 1;
 
@@ -351,32 +329,32 @@ header {
 }
 
 @media screen and (max-width: 890px) {
-  .plat-container {
+  .creators-container {
     /* flex-direction: column; */
 
     margin: 0;
   }
 
-  .plat-card {
+  .creators-card {
     padding: 0;
     width: 80%;
   }
 }
 
 @media screen and (max-width: 640px) {
-  .plat-container {
+  .creators-container {
     flex-direction: column;
 
     margin: 0;
   }
 
-  .plat-card {
+  .creators-card {
     padding: 0;
   }
 }
 
 
-/* #plataformas .plat-container  .plat-card */
+/* #creators .creators-container  .creators-card */
 .image-container {
   display: flex;
   align-items: flex-start;
@@ -399,36 +377,23 @@ header {
   }
 }
 
-/* #plataformas .plat-container */
-.plat-card ul {
+/* #creators .creators-container */
+.creators-card ul {
   box-sizing: border-box;
   padding-left: 20px;
 }
 
-/* #plataformas .plat-container */
-.plat-card .image-container img {
+/* #creators .creators-container */
+.creators-card .image-container img {
   max-height: 100%;
 }
 
-/* #plataformas .plat-container*/
-.plat-card a {
+/* #creators .creators-container*/
+.creators-card a {
   text-align: right;
   text-decoration: none;
   color: #000;
 }
-
-/* Estilizando publishers */
-
-#publishers {
-  padding: 2% 10%;
-  background-color: var(--secondary-purple);
-  color: var(--greenb);
-}
-
-#publishers .plat-card a {
-  color: #fff;
-}
-
 
 /* Estilizando sobre */
 

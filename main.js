@@ -86,7 +86,7 @@ function setGames() {
     `
   }
 
-  document.querySelector('.lanc-container').innerHTML = cards;
+  document.querySelector('.game-container').innerHTML = cards;
 }
 
 function loadMoreGames() {
@@ -103,7 +103,7 @@ function loadMoreGames() {
   }
 
   document.getElementById('loadMoreGamesButton').disabled = true;
-  document.querySelector('.lanc-container').innerHTML += cards;
+  document.querySelector('.game-container').innerHTML += cards;
 }
 
 function loadSearchedGame(sGames) {
@@ -195,7 +195,7 @@ function setCreatorsSection() {
 
   creators.forEach(creator => {
     card += `
-      <article class="plat-card">
+      <article class="creators-card">
         <h3>${creator.name}</h3>
         <div class="image-container">
           <img src="${creator.image}" alt="${creator.name}">
@@ -205,5 +205,5 @@ function setCreatorsSection() {
     `
   })
 
-  document.querySelector('.plat-container').innerHTML = card;
+  document.querySelector('.creators-container').innerHTML = card;
 }
