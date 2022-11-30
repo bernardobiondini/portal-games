@@ -1,6 +1,8 @@
 # UGame
 Portal de Games desenvolvido durante a disciplina de Desenvolvimento de Interfaces WEB. Para a realização do projeto foi utilizado a API RAWG, de forma em que o site pudesse exibir as informações de forma dinâmica.
 
+<a href="https://bernardobiondini.github.io/portal-games/">Link do Portal de Games</a>
+
 ## Sobre a Disciplina
 A disciplina busca introduzir o aluno ao desenvolvimento WEB, utilizando puramente HTML, CSS e Javascript. 
 
